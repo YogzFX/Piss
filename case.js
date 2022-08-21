@@ -224,7 +224,7 @@ jumlahharian = `${dataa.value}`
 	}
 
 var listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-            let po = ALYA.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "𝐻𝑒𝑟𝑚𝑎𝑛 𝐶ℎ𝑎𝑛𝑒𝑙᭄𓅂","listType": "SINGLE_SELECT","sections": list, quoted:mek}}, {})
+            let po = ALYA.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "𝒁𝒆𝒏𝒏𝑺𝒌𝒚","listType": "SINGLE_SELECT","sections": list, quoted:mek}}, {})
             return ALYA.relayWAMessage(po, {waitForAck: true, quoted:mek})
         }
 	    
